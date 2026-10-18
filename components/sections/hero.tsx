@@ -1,11 +1,21 @@
+import Image from "next/image";
 import Link from "next/link";
 import { buttonVariants } from "@/components/ui/button";
 import type { Dictionary } from "@/content/dictionaries";
+import { site } from "@/content/site";
 
 export function Hero({ dict }: { dict: Dictionary }) {
   return (
     <section className="mx-auto max-w-4xl px-4 pt-20 pb-16 sm:pt-28">
-      <p className="text-sm font-medium tracking-wide text-muted-foreground uppercase">
+      <Image
+        src="/profile.jpg"
+        alt={site.name}
+        width={64}
+        height={64}
+        priority
+        className="size-16 rounded-full object-cover"
+      />
+      <p className="mt-5 text-sm font-medium tracking-wide text-muted-foreground uppercase">
         {dict.hero.kicker}
       </p>
       <h1 className="mt-4 max-w-2xl text-4xl font-semibold tracking-tight sm:text-5xl">

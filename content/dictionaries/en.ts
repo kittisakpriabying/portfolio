@@ -16,7 +16,12 @@ export type Dictionary = {
     ctaPrimary: string;
     ctaSecondary: string;
   };
-  about: { heading: string; body: string; skillsHeading: string };
+  about: {
+    heading: string;
+    body: string;
+    skillsHeading: string;
+    education: string;
+  };
   projects: {
     heading: string;
     subheading: string;
@@ -31,9 +36,9 @@ export type Dictionary = {
 
 const en: Dictionary = {
   meta: {
-    title: "Kittisak Priabying — Full-Stack Developer & Freelancer",
+    title: "Kittisak Priabying — Software Engineer & Freelancer",
     description:
-      "Portfolio of Kittisak Priabying: full-stack projects, freelance services, and upcoming source-code products.",
+      "Portfolio of Kittisak Priabying, a software engineer building backend services and web apps. Freelance work and upcoming source-code products.",
   },
   nav: {
     about: "About",
@@ -45,18 +50,19 @@ const en: Dictionary = {
     openMenu: "Open menu",
   },
   hero: {
-    kicker: "Full-Stack Developer",
+    kicker: "Software Engineer",
     title: "I build fast, reliable software — and take on freelance work.",
     subtitle:
-      "I design and ship web apps end to end: from product idea to a deployed, maintainable codebase.",
+      "3.5+ years building backend services and web apps — currently shipping loyalty-platform microservices for 3M+ users at Ascend Group.",
     ctaPrimary: "View projects",
     ctaSecondary: "Get in touch",
   },
   about: {
     heading: "About",
     body:
-      "I'm a developer who learns by building — shipping real projects rather than just studying theory. I care about clean, honest code and about being upfront with clients about what actually works.",
+      "I'm a software engineer with 3.5+ years of experience building web applications and backend services, working mainly in Go, Node.js, and Next.js. I care about clean code, system performance, and being upfront with clients about what actually works.",
     skillsHeading: "Skills",
+    education: "B.Eng. Computer Engineering — Khon Kaen University",
   },
   projects: {
     heading: "Projects",
@@ -66,7 +72,8 @@ const en: Dictionary = {
   },
   services: {
     heading: "Services & Pricing",
-    subheading: "What I can help you build, and rough starting prices.",
+    subheading:
+      "What I can help you build with Go, Node.js, and Next.js — and rough starting prices.",
     cta: "Discuss your project",
   },
   shop: {

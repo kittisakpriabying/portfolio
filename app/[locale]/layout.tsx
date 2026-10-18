@@ -41,6 +41,7 @@ export default async function LocaleLayout({
     "@type": "Person",
     name: site.name,
     url: site.url,
+    image: `${site.url}/profile.jpg`,
     email: site.email,
     sameAs: Object.values(site.social).filter(Boolean),
     jobTitle: dict.hero.kicker,

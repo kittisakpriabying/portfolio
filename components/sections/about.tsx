@@ -11,6 +11,9 @@ export function About({ dict }: { dict: Dictionary }) {
       <p className="mt-4 max-w-2xl text-muted-foreground">
         {dict.about.body}
       </p>
+      <p className="mt-2 text-sm text-muted-foreground">
+        {dict.about.education}
+      </p>
 
       <h3 className="mt-10 text-sm font-medium text-muted-foreground uppercase tracking-wide">
         {dict.about.skillsHeading}

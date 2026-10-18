@@ -5,7 +5,7 @@ import type { Dictionary } from "@/content/dictionaries";
 import { site } from "@/content/site";
 
 export function ShopTeaser({ dict }: { dict: Dictionary }) {
-  const followUrl = site.social.github || site.social.linkedin || "#contact";
+  const followUrl = site.social.github || site.social.linkedin;
 
   return (
     <section id="shop" className="mx-auto max-w-4xl px-4 py-16">
@@ -17,9 +17,9 @@ export function ShopTeaser({ dict }: { dict: Dictionary }) {
         <p className="mt-2 max-w-xl text-muted-foreground">{dict.shop.body}</p>
         <div className="mt-6">
           <Link
-            href={followUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={followUrl || "#contact"}
+            target={followUrl ? "_blank" : undefined}
+            rel={followUrl ? "noopener noreferrer" : undefined}
             className={buttonVariants({ variant: "outline" })}
           >
             {dict.shop.cta}

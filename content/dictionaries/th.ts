@@ -2,10 +2,10 @@ import type { Dictionary } from "./en";
 
 const th: Dictionary = {
   meta: {
-    // TODO: แก้เป็นชื่อ-นามสกุลภาษาไทยที่ถูกต้องของคุณ
-    title: "Kittisak P. — Full-Stack Developer & Freelancer",
+    // TODO: แก้เป็นชื่อ-นามสกุลภาษาไทยที่ถูกต้องของคุณ (ใน CV มีแต่ชื่ออังกฤษ "Kittisak Priabying")
+    title: "Kittisak Priabying — Software Engineer & Freelancer",
     description:
-      "พอร์ตโฟลิโอผลงานพัฒนาเว็บ รับงาน freelance และผลิตภัณฑ์ source code ที่กำลังจะเปิดขาย",
+      "พอร์ตโฟลิโอของ Kittisak Priabying ซอฟต์แวร์เอนจิเนียร์สาย backend และเว็บแอป รับงาน freelance และผลิตภัณฑ์ source code ที่กำลังจะเปิดขาย",
   },
   nav: {
     about: "เกี่ยวกับ",
@@ -17,18 +17,19 @@ const th: Dictionary = {
     openMenu: "เปิดเมนู",
   },
   hero: {
-    kicker: "Full-Stack Developer",
+    kicker: "Software Engineer",
     title: "สร้างซอฟต์แวร์ที่เร็วและน่าเชื่อถือ พร้อมรับงาน freelance",
     subtitle:
-      "ดูแลตั้งแต่ไอเดียผลิตภัณฑ์ไปจนถึงโค้ดที่ deploy จริงและดูแลต่อได้ในระยะยาว",
+      "ประสบการณ์กว่า 3.5 ปีในการพัฒนา backend และเว็บแอป ปัจจุบันดูแล microservices ระบบ loyalty ที่รองรับผู้ใช้กว่า 3 ล้านคนที่ Ascend Group",
     ctaPrimary: "ดูผลงาน",
     ctaSecondary: "ติดต่อเลย",
   },
   about: {
     heading: "เกี่ยวกับ",
     body:
-      "ผมเป็นนักพัฒนาที่เรียนรู้ผ่านการลงมือทำจริง มากกว่าการอ่านทฤษฎีอย่างเดียว ให้ความสำคัญกับโค้ดที่สะอาดและตรงไปตรงมา รวมถึงความซื่อตรงกับลูกค้าว่าอะไรใช้ได้จริง",
+      "ผมเป็นซอฟต์แวร์เอนจิเนียร์ที่มีประสบการณ์กว่า 3.5 ปีในการพัฒนาเว็บแอปพลิเคชันและ backend services โดยเน้นใช้ Go, Node.js และ Next.js เป็นหลัก ให้ความสำคัญกับโค้ดที่สะอาด ประสิทธิภาพของระบบ และความตรงไปตรงมากับลูกค้าว่าอะไรใช้ได้จริง",
     skillsHeading: "ความเชี่ยวชาญ",
+    education: "วิศวกรรมคอมพิวเตอร์ — มหาวิทยาลัยขอนแก่น",
   },
   projects: {
     heading: "ผลงาน",
@@ -38,7 +39,7 @@ const th: Dictionary = {
   },
   services: {
     heading: "บริการ & ราคา",
-    subheading: "สิ่งที่ผมช่วยได้ และราคาเริ่มต้นโดยประมาณ",
+    subheading: "สิ่งที่ผมช่วยได้ด้วย Go, Node.js และ Next.js พร้อมราคาเริ่มต้นโดยประมาณ",
     cta: "คุยเรื่องโปรเจกต์ของคุณ",
   },
   shop: {
